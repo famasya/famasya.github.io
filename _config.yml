@@ -6,7 +6,7 @@ title:               Voyager
 tagline:             The noon hacks
 url:                 https://famasya.github.io
 paginate:            5
-baseurl:             "https://famasya.github.io"
+baseurl:             ""
 
 # Assets
 #
@@ -30,3 +30,5 @@ github:
 gems:
   - jekyll-paginate
   - jekyll-gist
+  - jekyll-sitemap
+  - jekyll-feed
