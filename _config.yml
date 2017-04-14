@@ -4,9 +4,9 @@ permalink:           pretty
 # Setup
 title:               Voyager
 tagline:             The noon hacks
-url:                 http://famasya.github.io
+url:                 https://famasya.github.io
 paginate:            1
-baseurl:             "http://famasya.github.io"
+baseurl:             "https://famasya.github.io"
 
 # Assets
 #
