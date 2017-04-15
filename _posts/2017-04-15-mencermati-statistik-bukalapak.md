@@ -15,7 +15,7 @@ Wow, 500 ribu itu jumlah yang besar untuk layanan yang baru diluncurkan. Namun s
 
 *Mean* atau nilai rata-rata memang gampang sekali dimengerti. Setiap orang dengan pengetahuan matematika dasar paham secara intuitif bahwa *mean* dapat diperoleh dengan membagi jumlah data dengan total banyaknya data.
 
-Karena hasilnya bisa ambigu.
+Tapi hasilnya bisa ambigu.
 
 ### Problema nilai kelas
 Bayangkan kita adalah seorang pengawas kelas yang sedang menilai kinerja guru-guru di kelas A dan B. Kelas A memberikan data, bahwa murid kelasnya memiliki rata-rata nilai sebanyak 6,3. Sedangkan kelas B, memiliki rata-rata 6.
