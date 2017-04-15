@@ -9,13 +9,13 @@ Dalam berita yang dilansir oleh [Tech in Asia](https://id.techinasia.com/alasan-
 
 > “Pengguna kami ada yang memulai dari Rp50.000, namun ada juga yang menginvestasikan dana hingga Rp1 miliar. Secara rata-rata, pengguna kami berinvestasi sekitar Rp500.000 hingga Rp1 juta,” tutur Zaky.
 
-Wow, 500 ribu itu jumlah yang besar untuk layanan yang baru diluncurkan. Namun rata-rata itu bisa menipu.
+Wow, 500 ribu itu jumlah yang besar untuk layanan yang baru diluncurkan. Namun saya teringat, rata-rata itu bisa menipu.
 
 <!-- more -->
 
 *Mean* atau nilai rata-rata memang gampang sekali dimengerti. Setiap orang dengan pengetahuan matematika dasar paham secara intuitif bahwa *mean* dapat diperoleh dengan membagi jumlah data dengan total banyaknya data.
 
-Namun hasilnya bisa ambigu.
+Karena hasilnya bisa ambigu.
 
 ### Problema nilai kelas
 Bayangkan kita adalah seorang pengawas kelas yang sedang menilai kinerja guru-guru di kelas A dan B. Kelas A memberikan data, bahwa murid kelasnya memiliki rata-rata nilai sebanyak 6,3. Sedangkan kelas B, memiliki rata-rata 6.
