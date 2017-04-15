@@ -39,7 +39,7 @@ Deviasi standar adalah salah satu cara untuk mengetahui disparitas suatu data. R
 
 Ketika kita hitung nilai standar deviasi dari kelas A menggunakan [rumus tersebut](https://www.khanacademy.org/math/probability/data-distributions-a1/summarizing-spread-distributions/a/calculating-standard-deviation-step-by-step), ia menunjukkan nilai 2,8. Sedangkan kelas B bernilai 1,2. 
 
-Artinya distribusi nilai B lebih homogen dari kelas A.
+Artinya distribusi nilai B lebih homogen dari kelas A, karena lebih mendekati nol (jika nol berarti sangat homogen).
 
 Dari kasus di atas, deviasi standar dapat menunjukkan sesuatu yang kadang terlewat: bahwa *disparitas* data juga penting. Performa kelas –atau sekolah– tidak saja dinilai dari rata-rata nilainya, namun seberapa kecil perbedaan antar murid.
 
