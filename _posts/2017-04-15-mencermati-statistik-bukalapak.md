@@ -47,7 +47,7 @@ Hal ini pun mestinya kita cermati dalam menganalisa suatu berita. Termasuk berit
 
 Selisih antara 50 ribu dan 1 milyar di Bukareksa tadi menimbulkan pertanyaan. Bagaimana sebaran datanya? Apakah nilai rata-rata 500 ribu itu cenderung homogen atau tidak? Pertanyaan tadi bisa jadi analisa tersendiri jika kita jeli.
 
-Menurut berita di atas, ada 25.000 nasabah dengan rata-rata investasi sebesar Rp 500.000-Rp 1.000.000. Saya asumsikan saja rata-rata investasi reksadana sebesar Rp 750.000. Maka total dana yang ada sudah sejumlah Rp 18.750.000. Jika ada satu investasi sebesar 1 milyar, maka itupun sudah mencakup kurang lebih 5% dari seluruh dana. Dari satu orang. 
+Menurut berita di atas, ada 25.000 nasabah dengan rata-rata investasi sebesar Rp 500.000-Rp 1.000.000. Saya asumsikan saja rata-rata investasi reksadana sebesar Rp 750.000. Maka total dana yang ada sudah sejumlah Rp 18.750.000.000. Jika ada satu investasi sebesar 1 milyar, maka itupun sudah mencakup kurang lebih 5% dari seluruh dana. Dari satu orang. 
 
 Kita bisa bayangkan betapa tingginya nilai disparitas seluruh pengguna tersebut, karena 95% sisanya dibagi kedalam ribuan investor lain.
 
