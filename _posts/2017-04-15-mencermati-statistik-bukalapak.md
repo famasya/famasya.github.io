@@ -31,7 +31,7 @@ Namun mari kita lihat distribusi nilainya
 
 Dari grafik tersebut, ada sesuatu yang menarik. Meski rata-rata nilai kelas A (6,3) lebih baik dari kelas B (6), namun ternyata distribusi nilai kelas B lebih konsisten dari kelas A.
 
-Sebagai pengawas, menurut saya kelas B lebih berhasil dari kelas A, walau rata-ratanya lebih kecil. Hal ini dapat dijelaskan melalui **deviasi standar (standard deviation / STD)**.
+Sebagai pengawas, menurut saya kelas B lebih berhasil dari kelas A, walau rata-ratanya lebih kecil. Alasannya, murid-murid kelas B lebih konsisten dari kelas A. Hal ini dapat dijelaskan melalui **deviasi standar (standard deviation / STD)**.
 
 ### Menganalisa lebih dalam
 
