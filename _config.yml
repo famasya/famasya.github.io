@@ -1,34 +1,42 @@
-# Permalinks
-permalink:           pretty
+name: The weekend hacks
+description: Notes about computer stuffs
+meta_description: "Notes from software guy"
 
-# Setup
-title:               The weekend
-tagline:             hacks
-url:                 https://famasya.github.io
-paginate:            5
-baseurl:             ""
+aboutPage: true
 
-# Assets
-#
-# We specify the directory for Jekyll so we can use @imports.
-sass:
-  sass_dir:          _sass
-  style:            :compressed
+markdown: kramdown
+highlighter: rouge
 
-# About/contact
-author:
-  name:              Abid Famasya
-  url:               https://twitter.com/famasya
-  email:             famasya@icloud.com
+plugins: [jekyll-paginate]
+paginate: 10
+domain_name: 'http://famasya.github.io'
+google_analytics: 
+disqus: false
+disqus_shortname: 'your-disqus-shortname'
 
-# Custom vars
-version:             2.0.0
-github:
-  repo:              https://github.com/famasya/famasya.github.io
+# Details for the RSS feed generator
+url:            'http://famasya.github.io'
+author:         'Abid Famasya'
+authorTwitter:  'famasya'
 
-# Gems
-gems:
-  - jekyll-paginate
-  - jekyll-gist
-  - jekyll-sitemap
-  - jekyll-feed
+permalink:       /:year/:title/
+
+defaults:
+    -
+        scope:
+            path: "" # empty string for all files
+            type: pages
+        values:
+            layout: default
+    -
+        scope:
+            path: "" # empty string for all files
+            type: posts
+        values:
+            layout: post
+    -
+        scope:
+            path: ""
+            type: drafts
+        values:
+            layout: post

@@ -1,6 +1,7 @@
 ---
-layout: page
 title: About
+permalink: about/
+profile: true
 ---
 
 Halo.
@@ -10,3 +11,5 @@ Ini adalah blog sampingan saya yang (kebanyakan) berisi eksperimen saya di akhir
 Untuk isi yang ringan-ringan saya, silakan mampir di [blog utama saya](https://abidfamasya.wordpress.com).
 
 Cheers!
+
+{% include footer.html %}
