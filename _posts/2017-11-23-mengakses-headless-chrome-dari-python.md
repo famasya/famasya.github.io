@@ -1,8 +1,15 @@
+---
+layout: post
+title: Mencermati statistik bukalapak
+---
+
 Istilah headless browser cukup populer di kalangan software engineer apalagi bagian QA. Berbeda dengan _browser_ biasa, _headless browser_ tidak menggunakan antarmuka dan hanya menggunakan _core_ dari browser tersebut untuk me-render komponen web. Maka dari itu, headless browser ini relatif ringan dan populer digunakan untuk front end testing maupun automation.
 
 Beberapa waktu lalu saya cukup sering menggunakan headless chrome sebagai _tools_ testing. Cukup banyak solusi yang ditawarkan dalam berbagai API. Yang paling populer adalah selenium dan PhantomJS. Namun semenjak isu [phantom js ditinggal maintenernya](https://news.ycombinator.com/item?id=14105489), saya mulai mencari alternative lain.
 
 Dan ketemulah sama [Chrome Headless Browser](https://developers.google.com/web/updates/2017/04/headless-chrome).
+
+<!-- more -->
 
 Sejak Chrome 59, secara default, kita bisa mengakses headless browser dengan parameter ```--headless```. Ada berbagai macam mode headless yang ditawarkan mulai dari REPL, hingga _remote debugging port_ (RDP). Nah, karena tim _startup_ saya masih kecil (banget) dan saya adalah programmer yang merangkap ini-itu, akhirnya saya belajar pakai headless mode ini. 
 
