@@ -13,7 +13,7 @@ Dan ketemulah sama [Chrome Headless Browser](https://developers.google.com/web/u
 
 Sejak Chrome 59, secara default, kita bisa mengakses headless browser dengan parameter ```--headless```. Ada berbagai macam mode headless yang ditawarkan mulai dari REPL, hingga _remote debugging port_ (RDP). Nah, karena tim _startup_ saya masih kecil (banget) dan saya adalah programmer yang merangkap ini-itu, akhirnya saya belajar pakai headless mode ini. 
 
-Masalahnya timbul ketika saya diminta bikin DOM testing, dan lagi 'males' move on dari Python. Sedangkan contoh snippet yang diberi Google dalam [EcmaScript][1]. Sebenarnya saya ada sih beberapa pengalaman dengan ES, tapi karena 'kemalasan', saya coba manipulasi yang ada dulu. 
+Masalahnya timbul ketika saya diminta bikin DOM testing, dan lagi 'males' move on dari Python. Sedangkan contoh snippet yang diberi Google dalam EcmaScript[1]. Sebenarnya saya ada sih beberapa pengalaman dengan ES, tapi karena 'kemalasan', saya coba manipulasi yang ada dulu. 
 
 Di headless chrome ada RDP, yang mana menggunakan websocket sebagai komunikasinya. Jadi, bagaimana kalau kita bisa mengirim evaluasi DOM menggunakan javascript lewat websocket ke headless chrome? Dengan ini saya tidak perlu menulis Node.js package.
 
@@ -35,4 +35,4 @@ Masih banyak potensi yang disediakan oleh Chrome ini sendiri. Kita bisa mengekse
 
 Ngomong-ngomong, semoga Firefox bisa menyediakan headless browser juga agar tidak Google centric.
 
-[1] http://blog.codecarrot.net/whats-the-difference-between-javascript-and-ecmascript/.
+[1] Ada perbedaan antara Javascript dan EcmaScript di [tulisan menarik ini](http://blog.codecarrot.net/whats-the-difference-between-javascript-and-ecmascript/).
