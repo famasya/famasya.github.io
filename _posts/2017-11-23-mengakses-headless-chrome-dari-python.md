@@ -1,5 +1,3 @@
-## Mengakses Headless Chrome dari Python
-
 Istilah headless browser cukup populer di kalangan software engineer apalagi bagian QA. Berbeda dengan _browser_ biasa, _headless browser_ tidak menggunakan antarmuka dan hanya menggunakan _core_ dari browser tersebut untuk me-render komponen web. Maka dari itu, headless browser ini relatif ringan dan populer digunakan untuk front end testing maupun automation.
 
 Beberapa waktu lalu saya cukup sering menggunakan headless chrome sebagai _tools_ testing. Cukup banyak solusi yang ditawarkan dalam berbagai API. Yang paling populer adalah selenium dan PhantomJS. Namun semenjak isu [phantom js ditinggal maintenernya](https://news.ycombinator.com/item?id=14105489), saya mulai mencari alternative lain.
