@@ -116,7 +116,7 @@ Itulah sekilas tentang blockchain yang saya pelajari belakangan. Didasari dari p
 
 Sebenarnya banyak juga hal lain yang bisa dipelajari: ethereum, smart contract, Proof-of-Stake, Vector76 attack, dll. Banyak sekali penelitian yang dilakukan di bidang ini. Bahkan, ketika sore tadi saya iseng-iseng browsing Hacker News, Bitcoin [ternyata bisa di hijack melalui BGP protocol](https://btc-hijack.ethz.ch/).
 
-Selain itu banyak potensi lain dari blockchain dan tidak terbatas di bitcoin saja seperti di bidang kesehatan, properti, hingga [voting](https://medium.com/@BlockByBlock/how-we-can-improve-the-election-process-using-blockchain-technology-5b313be330f4). Bahkan Bank Indonesia juga [sedang memelajarinya](https://tirto.id/blockchain-teknologi-yang-awalnya-membuat-takut-bank-cxJu).
+Selain itu banyak potensi lain dari blockchain dan tidak terbatas di bitcoin saja seperti di bidang [kesehatan](https://www.technologyreview.com/s/608821/who-will-build-the-health-care-blockchain/), [properti](https://www.ubitquity.io/web/index.html), hingga [voting](https://medium.com/@BlockByBlock/how-we-can-improve-the-election-process-using-blockchain-technology-5b313be330f4). Bahkan Bank Indonesia juga [sedang memelajarinya](https://tirto.id/blockchain-teknologi-yang-awalnya-membuat-takut-bank-cxJu).
 
 Dan karena saya juga belajar, saya menerima sekali segala koreksi atas tulisan ini.
 
