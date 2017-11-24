@@ -63,7 +63,9 @@ Jadi ketika ada seseorang ingin "menimpa" suatu transaksi dengan yang palsu, mak
 
 Artinya (sampai saat ini), ini tidak mungkin dilakukan. 
 
-Mekanisme blockchain juga akan mengeliminasi "cabang terpendek" jika ada dua chain dengan referensi yang sama untuk menjamin validitas.
+![pruning](/public/pruning.png)
+
+Mekanisme blockchain juga akan mengeliminasi "cabang terpendek" jika ada dua chain dengan referensi yang sama untuk menjamin validitasnya.
 
 Jadi pertama: seluruh transaksi di blockchain dipastikan valid, kedua: proses penimpaan (tampering) sulit dilakukan. Disinilah keamanan yang ditawarkan blockchain dibanding transaksi tersentralisasi biasa.
 
