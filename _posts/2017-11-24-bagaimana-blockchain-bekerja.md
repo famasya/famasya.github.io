@@ -98,7 +98,7 @@ Race attack terjadi ketika ada suatu user *melakukan transaksi ke dirinya sendir
 
 Biasanya hal ini terjadi sebelum transaksi divalidasi oleh sistem (0/unconfirmed), sedangkan merchant sudah kadung percaya bahwa payment telah dilakukan. Solusinya adalah dengan menanti pembayaran dilakukan divalidasi oleh miners.
 
-Sedangkan finney attack terjadi ketika ada suatu user yang melakukan mining suatu block terlebih dahulu, tapi block yang telah divalidasi untuk di-broadcast ke network. Sehingga sebelum me-broadcast validated block, user bisa menggunakan transaksi yang sama untuk membeli barang lain.
+Sedangkan finney attack terjadi ketika ada suatu user yang melakukan mining suatu block terlebih dahulu, tapi block yang telah divalidasi **ditunda** untuk disebarluaskan (broadcast) ke network. Sehingga sebelum me-broadcast validated block, user bisa menggunakan transaksi yang sama untuk membeli barang lain.
 
 Hal ini dibutuhkan hardware resource yang tinggi dan timing yang sangat tepat. Tapi bisa dicegah dengan menunggu validasi lebih lama: misal 6 block yang valid. Karena semakin hanya satu block valid, akan rentan serangan ini. Semakin panjang block, akan kelihatan mana yang valid.
 
