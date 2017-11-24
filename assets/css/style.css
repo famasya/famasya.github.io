@@ -648,7 +648,7 @@ h2.month {
 }
 
 /*inline code*/
-code, tt {
+code:not(.highlighter-rogue), tt {
     padding: 1px 3px;
     font-family: Inconsolata, monospace, sans-serif;
     font-size: 0.95em;
@@ -656,4 +656,8 @@ code, tt {
     border: #E3EDF3 1px solid;
     background: #F7FAFB;
     border-radius: 2px;
+}
+
+img {
+    max-width:600px;
 }
