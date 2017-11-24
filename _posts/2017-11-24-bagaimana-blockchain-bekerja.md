@@ -114,11 +114,13 @@ Semua transaksi lain akan dianggap tidak valid karena ia telah melakukan validas
 ***
 Itulah sekilas tentang blockchain yang saya pelajari belakangan. Didasari dari penasaran dengan yang-lagi-ngetren, saya belajar blockchain.
 
-Sebenarnya banyak juga hal lain yang bisa dipelajari: ethereum, smart contract, Proof-of-Stake, Vector76 attack, dll. Banyak sekali penelitian yang dilakukan di bidang ini. Bahkan, ketika sore tadi saya iseng-iseng browsing Hacker News, Bitcoin [ternyata bisa di hijack melalui BGP protocol](https://btc-hijack.ethz.ch/).
+Sebenarnya banyak juga hal lain yang bisa dipelajari: apa itu ethereum, penggunaan smart contract, implementasi Proof-of-Stake daripada Proof-of-Work, Vector76 attack, dll. Banyak sekali penelitian yang dilakukan di bidang ini, karena memang relatif baru dalam bidang computer science. Bahkan, ketika sore tadi saya iseng-iseng browsing Hacker News, peneliti dari ETH Zurich menemukan Bitcoin [ternyata bisa di hijack melalui BGP protocol](https://btc-hijack.ethz.ch/).
 
-Selain itu banyak potensi lain dari blockchain dan tidak terbatas di bitcoin saja seperti di bidang [kesehatan](https://www.technologyreview.com/s/608821/who-will-build-the-health-care-blockchain/), [properti](https://www.ubitquity.io/web/index.html), hingga [voting](https://medium.com/@BlockByBlock/how-we-can-improve-the-election-process-using-blockchain-technology-5b313be330f4). Bahkan Bank Indonesia juga [sedang memelajarinya](https://tirto.id/blockchain-teknologi-yang-awalnya-membuat-takut-bank-cxJu).
+Selain itu banyak potensi lain dari blockchain dan tidak terbatas di bitcoin saja seperti di bidang [kesehatan](https://www.technologyreview.com/s/608821/who-will-build-the-health-care-blockchain/), [properti](https://www.ubitquity.io/web/index.html), hingga [voting](https://medium.com/@BlockByBlock/how-we-can-improve-the-election-process-using-blockchain-technology-5b313be330f4). Startup bitcoin Indonesia [baru saja mendapatkan pendanaan](https://id.techinasia.com/bitcoin-co-id-pendanaan-east-ventures). 
 
-Dan karena saya juga belajar, saya menerima sekali segala koreksi atas tulisan ini.
+Sekilas bahwa blockchain akan merevolusi dunia perbankan. Tapi sepertinya masih cukup lama. Meskipun begitu, banyak bank di seluruh dunia cukup reaktif untuk mempelajari blockchain. Salutnya, bank sentral di Indonesia, Bank Indonesia, juga [sedang memelajarinya](https://tirto.id/blockchain-teknologi-yang-awalnya-membuat-takut-bank-cxJu). Mungkin tidak mau kecolongan lagi seperti aturan taksi online.
+
+Ngomong-ngomong, karena saya juga masih belajar, saya menerima sekali segala koreksi atas tulisan ini.
 
 Cheers!
 
