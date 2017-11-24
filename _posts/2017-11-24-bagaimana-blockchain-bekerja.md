@@ -3,7 +3,7 @@ layout: post
 title: Bagaimana Blockchain bekerja
 ---
 
-## Bitcoin sudah jadi hot topic belakangan. Tapi di balik itu, ide yang revolusioner itu namanya _blockchain_, mekanisme dari bitcoin.
+## Bitcoin sudah jadi hot topic belakangan. Tapi di baliknya, ide yang revolusioner itu namanya _blockchain_, mekanisme dari bitcoin.
 
 Bitcoin adalah _cryptocurrency_, yaitu uang yang diproduksi berdasarkan persamaan matematika alih-alih dikeluarkan oleh pemerintah. Latar belakangnya? Sepertinya di dunia internet ini sebisa mungkin warganet ingin menghindari interupsi pemerintah. 
 
@@ -11,7 +11,7 @@ Dan orang-orang lebih percaya matematika daripada manusia.
 
 Pseudonym-nya _Satoshi Nakamoto_, seorang (atau sekelompok orang) yang menulis sebuah whitepaper: Bitcoin, A Peer-to-Peer Electronic Cash System. Whitepaper inilah yang melatarbelakangi lahirnya bitcoin. Namun hingga kini pun Satoshi masih misteri karena belum ada orang yang secara _legitimate_ diakui sebagai Satoshi yang asli.
 
-Bitcoin menggunakan mekanisme unik layaknya buku besar (_ledger_) yang terdistribusi. Rangkaian traksaksi elektronik dicatat di ribuan komputer, alih-alih memercayakannya ke **satu** pihak ketiga (pemerintah) sebagai perantaranya. Rangkaian transaksi itu tercatat dalam publik, sehingga tidak diperlukan bank sebagai pihak ketiga. Orang-orang menyebutnya _blockchain_ meski tidak ada kata itu secara eksplisit di paper-nya.
+Bitcoin menggunakan mekanisme unik layaknya buku besar (_ledger_) yang terdistribusi. Rangkaian traksaksi elektronik dicatat di *distributed network*, alih-alih memercayakannya ke **satu** pihak ketiga (pemerintah) sebagai perantaranya. Rangkaian transaksi itu tercatat dalam publik, sehingga tidak diperlukan bank sebagai pihak ketiga. Orang-orang menyebutnya _blockchain_ meski tidak ada kata itu secara eksplisit di paper-nya.
 
 Bingung? Tidak apa-apa. Saya dulu juga begitu.
 
@@ -29,7 +29,7 @@ Dalam blockchain, pihak ketiga itu dihilangkan. Jadi siapa yang meverifikasi rek
 
 ![double spending](/public/double-spending.png)
 
-Masalah di atas disebut _double spending_ problem.
+Masalah di atas disebut _double spending_ problem, hal yang gampang diatasi oleh sistem tersentralisasi, tapi sulit diatasi oleh sistem terdistribusi.
 
 ## Mengenal blockchain
 ***
@@ -57,7 +57,7 @@ Jika seseorang membeli sesuatu menggunakan blockchain dengan sejumlah *currency*
 
 Dan karena blockchain berada dalam peer-to-peer system, maka setiap transaksi akan tercatat dalam publik. Terdapat proses mining untuk melakukan validasinya. FYI, mining disini berbeda maknanya dengan proses menggali emas.
 
-Dalam proses mining akan dilakukan *hashing* terhadap block. Kita tahu bahwa proses hashing disini akan berbeda jika block sebelumnya berbeda.
+Dalam proses mining akan dilakukan *hashing* terhadap block. Kita tahu bahwa hasil hashing akan berbeda jika block sebelumnya berbeda. Jadi referensi historis dari block harus sama untuk mendapat hashing yang sesuai dari block tersebut.
 
 Jadi ketika ada seseorang ingin "menimpa" suatu transaksi dengan yang palsu, maka ia harus mengubah seluruh blockchain dalam seluruh nodes sekaligus. Karena jika ia hanya mengganti satu block dalam sebuah blockchain, nodes akan menolaknya karena hasil hash yang berbeda. 
 
@@ -73,11 +73,11 @@ Pertanyaan bagus. Bisa saja ada banyak block-block palsu yang diproduksi dan dit
 
 Cara dari blockchain untuk memastikan **hanya** ada satu block yang valid adalah dengan membuat sebuah block sangat sulit untuk diproduksi.
 
-Proses validasi suatu block memerlukan suatu proses kriptografis disebut Proof of Work (PoW). Proof of work adalah suatu proses untuk menyelesaikan fungsi matematika rumit dan *computationally intensive*, yang akan diberi suatu reward berupa *bitcoin*. Jadi akan ada semacam "balapan" antar miners untuk mevalidasi block terlebih dahulu. 
+Proses validasi suatu block memerlukan suatu proses kriprografi disebut Proof of Work (PoW). Proof of work adalah suatu proses untuk menyelesaikan fungsi matematika rumit dan *computationally intensive*, yang akan diberi suatu reward berupa *bitcoin*. Jadi akan ada semacam "balapan" antar miners untuk mevalidasi block terlebih dahulu. 
 
 ![block validation](/public/block-validation.png)
 
-Nah, selain menyelesaikan fungsi kriptografis, miners juga dituntut untuk mevalidasi bahwa tidak ada transaksi yang berkonflik di dalam block tersebut. Jadi bisa dikatakan para miners melakukan *gambling* dalam mevalidasi block. Bisa saja ia mendapat upah berupa bitcoin, atau orang lain menyelesaikannya lebih dahulu.
+Nah, selain menyelesaikan fungsi kriptografi, miners juga dituntut untuk mevalidasi bahwa tidak ada transaksi yang berkonflik di dalam block tersebut. Jadi bisa dikatakan para miners melakukan *competition* dalam mevalidasi block. Bisa saja ia mendapat upah berupa bitcoin, setelah menyelesaikan validasi suatu block, atau orang lain menyelesaikannya lebih dahulu.
 
 Setelah divalidasi, maka bisa dikatakan block tersebut valid.
 
@@ -111,7 +111,7 @@ Bayangkan ada seorang dengan resource mining sangat besar: lebih dari setengah r
 Semua transaksi lain akan dianggap tidak valid karena ia telah melakukan validasi dan me-broadcast terlebih dahulu. Karena mekanisme blockchain yang hanya akan mengakui satu chain terpanjang, maka dengan 51% komputasi, seseorang akan dengan mudah "menimpa" chain yang ada sekarang.
 
 ## Penutup
-
+***
 Itulah sekilas tentang blockchain yang saya pelajari belakangan. Didasari dari penasaran dengan yang-lagi-ngetren, saya belajar blockchain.
 
 Sebenarnya banyak juga hal lain yang bisa dipelajari: ethereum, smart contract, Proof-of-Stake, Vector76 attack, dll. Banyak sekali penelitian yang dilakukan di bidang ini. Bahkan, ketika sore tadi saya iseng-iseng browsing Hacker News, Bitcoin [ternyata bisa di hijack melalui BGP protocol](https://btc-hijack.ethz.ch/).
