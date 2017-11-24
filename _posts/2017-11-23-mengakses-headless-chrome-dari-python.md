@@ -3,7 +3,9 @@ layout: post
 title: Mengakses Headless Chrome dari Python
 ---
 
-Istilah headless browser cukup populer di kalangan software engineer apalagi bagian QA. Berbeda dengan _browser_ biasa, _headless browser_ tidak menggunakan antarmuka dan hanya menggunakan _core_ dari browser tersebut untuk me-render komponen web. Maka dari itu, headless browser ini relatif ringan dan populer digunakan untuk front end testing maupun automation.
+## Istilah headless browser cukup populer di kalangan software engineer apalagi bagian QA. 
+
+Berbeda dengan _browser_ biasa, _headless browser_ tidak menggunakan antarmuka dan hanya menggunakan _core_ dari browser tersebut untuk me-render komponen web. Maka dari itu, headless browser ini relatif ringan dan populer digunakan untuk front end testing maupun automation.
 
 Beberapa waktu lalu saya cukup sering menggunakan headless chrome sebagai _tools_ testing. Cukup banyak solusi yang ditawarkan dalam berbagai API. Yang paling populer adalah selenium dan PhantomJS. Namun semenjak isu [phantom js ditinggal maintenernya](https://news.ycombinator.com/item?id=14105489), saya mulai mencari alternative lain.
 
@@ -21,17 +23,19 @@ Di headless chrome ada RDP, yang mana menggunakan websocket sebagai komunikasiny
 
 Expression di atas akan menghasilkan
 
-`{'result': {'type': 'string', 'value': 'http://localhost/'}}`
+```javascript
+{'result': {'type': 'string', 'value': 'http://localhost/'}}
+```
 
 Yay!
 
 Untuk menjalankannya, dibutuhkan headless chrome yang sudah berjalan di belakang layar. Saya gunakan command ```/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --headless --remote-debugging-port=9222 http://localhost:3030``` untuk membuka halaman front end secara background. Bisa juga menggunakan ```subprocess``` bila ingin menggabungkan eksekusi headless Chrome dalam script.
 
-Logikanya cukup sederhana bukan? Dengan library `requests`, untuk mendapatkan `websocketDebuggerUrl`, kita bisa mengirim evaluasi expression javascript untuk dieksekusi di Chrome. Hasilnya akan dapat kita terima dengan `ws.recv()`.
+Logikanya cukup sederhana bukan? Dengan library ```requests```, untuk mendapatkan ```websocketDebuggerUrl```, kita bisa mengirim evaluasi expression javascript untuk dieksekusi di Chrome. Hasilnya akan dapat kita terima dengan ```ws.recv()```.
 
-Oh iya, karena eksekusi expression-nya secara asynchronous, maka mungkin perlu ditambahkan `time.wait()` untuk menunggu elemen web ter render dengan sempurna.
+Oh iya, karena eksekusi expression-nya secara asynchronous, maka mungkin perlu ditambahkan ```time.wait()``` untuk menunggu elemen web ter render dengan sempurna.
 
-Masih banyak potensi yang disediakan oleh Chrome ini sendiri. Kita bisa mengeksekusi expression dalam mode REPL dengan menambahkan parameter `--repl`, atau melakukan screenshot dengan `--screenshot`. Referensi lengkapnya ada [di sini](https://developers.google.com/web/updates/2017/04/headless-chrome).
+Masih banyak potensi yang disediakan oleh Chrome ini sendiri. Kita bisa mengeksekusi expression dalam mode REPL dengan menambahkan parameter ```--repl```, atau melakukan screenshot dengan ```--screenshot```. Referensi lengkapnya ada [di sini](https://developers.google.com/web/updates/2017/04/headless-chrome).
 
 Ngomong-ngomong, semoga Firefox bisa menyediakan headless browser juga agar tidak Google centric.
 
