@@ -19,7 +19,7 @@ url:            'http://famasya.github.io'
 author:         'Abid Famasya'
 authorTwitter:  'famasya'
 
-permalink:       /:year/:title/
+permalink:       /:year/:month/:day/:title/
 
 defaults:
     -
