@@ -25,7 +25,7 @@ Ada penjelasan menarik dari Pak Budi Rahardjo, dosen ITB tentang bitcoin ini yan
 >
 > Lucunya, orang-orang tidak menggunakan kupon itu untuk membeli makanan. Justru jual beli kuponnya yang menjadi fokus kegiatannya.
 
-Jadi intinya, daripada menggunakan bitcoin sebagai transaksi, orang-orang lebih memilih menggunakannya sebagai alat *investasi*.
+Jadi intinya, daripada menggunakan bitcoin sebagai transaksi, orang-orang lebih memilih menggunakannya sebagai alat *investasi*. Nah, dengan publisitas media yang besar, maka berlaku pula hukum *supply-demand* dalam ekonomi. Maka melambunglah nilai bitcoin.
 
 ## Cara kerja bitcoin
 ***
