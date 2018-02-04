@@ -5,7 +5,7 @@ title: Bitcoin dalam 20 menit
 
 ## Tulisan ini merupakan penyederhanaan dari tulisan blockchain saya  sebelumnya.
  
-Kemarin ketika saya ngobrol-ngobrol sama teman, saya “ditodong” penjelasan tentang bitcoin. Sebenarnya saya sudah membuat sebuah penjelasan bagaimana kerja bitcoin. Tetapi karena terlalu teknis, saya putuskan untuk menjelaskan ulang bagaimana cara kerjanya secara lebih sederhana.
+Kemarin ketika saya ngobrol-ngobrol sama teman, saya “ditodong” penjelasan tentang bitcoin. Sebenarnya saya sudah membuat sebuah penjelasan bagaimana kerja bitcoin. Tetapi karena terlalu teknis, saya putuskan untuk menjelaskan ulang bagaimana cara kerjanya secara lebih sederhana. 
 
 ## Apa itu bitcoin?
 ***
